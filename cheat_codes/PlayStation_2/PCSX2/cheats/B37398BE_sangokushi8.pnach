@@ -1,0 +1,68 @@
+/* //最強武将作成 */
+/* //※新武将作成時に名前をああああと入れれば出てきます。 */
+/* //一度セーブして、コードを使わずにロードすれば名前を変えれます。 */
+/*  */
+/* //必須(必ず入力) */
+/* patch=1,EE,005EDE00,word,A082A082 */
+/* patch=1,EE,005EDE08,word,A082A082 */
+/*  */
+/* patch=1,EE,005BCC60,word,00000064//(武力) */
+/* patch=1,EE,005BCC64,word,00000064//(知力) */
+/* patch=1,EE,005BCC68,word,00000064//(政治) */
+/* patch=1,EE,005BCC6C,word,00000064//(魅力) */
+/*  */
+/* patch=1,EE,005BCC70,word,0000000F//(義理) */
+/* patch=1,EE,005BCC74,word,0000000F//(野心) */
+/* patch=1,EE,005BCC78,word,00000007//(冷静) */
+/* patch=1,EE,005BCC7C,word,00000007//(勇猛) */
+/*  */
+/* patch=1,EE,005BCC80,word,00000001//(猛者) */
+/* patch=1,EE,005BCC84,word,00000001//(智襄) */
+/* patch=1,EE,005BCC88,word,00000001//(治略) */
+/* patch=1,EE,005BCC8C,word,00000001//(人徳) */
+/* patch=1,EE,005BCC90,word,00000001//(医術) */
+/* patch=1,EE,005BCC94,word,00000001//(天文) */
+/* patch=1,EE,005BCC98,word,00000001//(耕作) */
+/* patch=1,EE,005BCC9C,word,00000001//(商才) */
+/* patch=1,EE,005BCCA0,word,00000001//(築城) */
+/* patch=1,EE,005BCCA4,word,00000001//(警備) */
+/* patch=1,EE,005BCCA8,word,00000001//(発明) */
+/* patch=1,EE,005BCCAC,word,00000001//(威風) */
+/* patch=1,EE,005BCCB0,word,00000001//(弁舌) */
+/* patch=1,EE,005BCCB4,word,00000001//(反計) */
+/* patch=1,EE,005BCCB8,word,00000001//(挑発) */
+/* patch=1,EE,005BCCBC,word,00000001//(混乱) */
+/* patch=1,EE,005BCCC0,word,00000001//(虚報) */
+/* patch=1,EE,005BCCC4,word,00000001//(歩兵) */
+/* patch=1,EE,005BCCC8,word,00000001//(騎兵) */
+/* patch=1,EE,005BCCCC,word,00000001//(ド兵) */
+/* patch=1,EE,005BCCD0,word,00000001//(水軍) */
+/* patch=1,EE,005BCCD4,word,00000001//(偵察) */
+/* patch=1,EE,005BCCD8,word,00000001//(全能) */
+/* patch=1,EE,005BCCDC,word,00000001//(神眼) */
+/* patch=1,EE,005BCCE0,word,00000001//(鬼謀) */
+/* patch=1,EE,005BCCE4,word,00000001//(神算) */
+/*  */
+/* //・特技全て短縮コード(ver.1.6.以降用) */
+/* patch=1,EE,405BCC80,extended,001A0001 */
+/* patch=1,EE,00000001,byte,00 */
+/*  */
+/* patch=1,EE,005BCCEC,word,00000006//(突撃) */
+/* patch=1,EE,005BCCF0,word,00000006//(乱撃) */
+/* patch=1,EE,005BCCF4,word,00000006//(撹乱) */
+/* patch=1,EE,005BCCF8,word,00000006//(奇襲) */
+/* patch=1,EE,005BCCFC,word,00000006//(槍衾) */
+/* patch=1,EE,005BCD00,word,00000006//(車懸) */
+/* patch=1,EE,005BCD04,word,00000006//(火矢) */
+/* patch=1,EE,005BCD08,word,00000006//(斎射) */
+/* patch=1,EE,005BCD0C,word,00000006//(乱射) */
+/* patch=1,EE,005BCD10,word,00000006//(矢嵐) */
+/* patch=1,EE,005BCD14,word,00000006//(激流) */
+/* patch=1,EE,005BCD18,word,00000006//(烈火) */
+/* patch=1,EE,005BCD1C,word,00000006//(落石) */
+/* patch=1,EE,005BCD20,word,00000006//(妖術) */
+/* patch=1,EE,005BCD24,word,00000006//(攻城) */
+/*  */
+/* //・戦法全て極短縮コード(ver.1.6以降用) */
+/* patch=1,EE,405BCCEC,extended,000F0001 */
+/* patch=1,EE,00000006,byte,00 */

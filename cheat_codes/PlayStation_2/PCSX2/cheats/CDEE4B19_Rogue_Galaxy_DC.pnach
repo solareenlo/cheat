@@ -1,0 +1,64 @@
+//所持金MAX
+patch=1,EE,005CC3A0,word,05F5E0FF
+
+//ハンターポイントMAX
+patch=1,EE,005CC3C0,word,0098967F
+
+//EXP獲得倍率変更
+/* patch=1,EE,003A6084,word,00031840 //x2 */
+patch=1,EE,003A6084,word,00031880 //x4
+/* patch=1,EE,003A6084,word,000318C0 //x8 */
+/* patch=1,EE,003A6084,word,00031900 //x16 */
+/* patch=1,EE,003A6084,word,00031940 //x32 */
+/* patch=1,EE,003A6084,word,00031A00 //x256 */
+
+//討伐数の増加数変更
+/* patch=1,EE,003C6D10,word,24820005 //5 */
+/* patch=1,EE,003C6D10,word,2482000A //10 */
+/* patch=1,EE,003C6D10,word,24820014 //20 */
+/* patch=1,EE,003C6D10,word,2482001E //30 */
+/* patch=1,EE,003C6D10,word,24820032 //50 */
+/* patch=1,EE,003C6D10,word,24820064 //100 */
+
+//ｼﾞｪｽﾀｰATGへらない
+patch=1,EE,006046C8,word,00000001
+patch=1,EE,006046CC,word,447A0000
+
+//ｷｻﾗATGへらない
+patch=1,EE,00604B78,word,00000001
+patch=1,EE,00604B7C,word,447A0000
+
+//ｻｲﾓﾝATGへらない
+patch=1,EE,00605028,word,00000001
+patch=1,EE,0060502C,word,447A0000
+
+//ｽﾃｨｰﾌﾞATGへらない
+patch=1,EE,006054D8,word,00000001
+patch=1,EE,006054DC,word,447A0000
+
+//ﾃﾞｨｰｺﾞATGへらない
+patch=1,EE,00605988,word,00000001
+patch=1,EE,0060598C,word,447A0000
+
+//ｼﾞｭﾋﾟｽATGへらない
+patch=1,EE,00605E38,word,00000001
+patch=1,EE,00605E3C,word,447A0000
+
+//ﾙﾙｶATGへらない
+patch=1,EE,006062E8,word,00000001
+patch=1,EE,006062EC,word,447A0000
+
+//ｾﾞｸﾞﾗﾑATGへらない
+patch=1,EE,00606798,word,00000001
+patch=1,EE,0060679C,word,447A0000
+
+//砂の爪の男ATGへらない
+patch=1,EE,00606C48,word,00000001
+patch=1,EE,00606C4C,word,447A0000
+
+//全味方APへらない
+patch=1,EE,003B2538,word,2411FF9C
+patch=1,EE,003B253C,word,54000003
+
+//アイテム倉庫から取り出すと30個
+patch=1,EE,003C9B2C,word,10200001

@@ -1,0 +1,28 @@
+// 武器だけ全入手
+patch=1,EE,01D31BF0,short,FFFF
+
+// ライトの明るさ変更
+patch=1,EE,D1D31C36,extended,00003F80
+patch=1,EE,01D31C34,word,41200000 // 10倍
+
+//アイテム&弾MAX
+//栄養ドリンク
+patch=1,EE,01D31C22,short,03E7
+//救急キット
+patch=1,EE,01D31C24,short,03E7
+//スタンガン装填数
+patch=1,EE,01D31C10,short,0003
+//スタンガンバッテリー
+patch=1,EE,01D31C1A,short,03E7
+//ハンドガン装填数
+patch=1,EE,01D31C12,short,000A
+//ハンドガンの弾
+patch=1,EE,01D31C1C,short,03E7
+//ショットガン装填数
+patch=1,EE,01D31C14,short,0006
+//ショットガンの弾
+patch=1,EE,01D31C1E,short,03E7
+//サブマシンガン装填数
+patch=1,EE,01D31C16,short,0020
+//サブマシンガンの弾
+patch=1,EE,01D31C20,short,03E7

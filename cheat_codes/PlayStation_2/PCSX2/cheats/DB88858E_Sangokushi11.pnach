@@ -1,0 +1,36 @@
+// 追加要素全開
+patch=1,EE,41CD27D4,extended,006E0001
+patch=1,EE,02020202,byte,01
+patch=1,EE,41CD29BC,extended,000E0001
+patch=1,EE,02020202,byte,00
+
+
+//新武将全員能力MAX （要必須）
+/* patch=1,EE,0C985FD8,word,D8D62E21 */
+/* patch=1,EE,0C985FDC,word,23D66DB5 */
+/* patch=1,EE,0C985FE0,word,D8D52FFB */
+/* patch=1,EE,0C985FE4,word,8B350CEB */
+/* patch=1,EE,0C985FE8,word,30D428EA */
+/* patch=1,EE,0C985FEC,word,30CB2FD3 */
+/* patch=1,EE,0C985FF0,word,30CA2CE6 */
+/* patch=1,EE,0C985FF4,word,30C92F71 */
+/* patch=1,EE,0C985FFC,word,B3D52FEB */
+/* patch=1,EE,0C985F00,word,ABD52FE5 */
+/* patch=1,EE,0C985F04,word,ABD52FE1 */
+/* patch=1,EE,0C985F08,word,BFCB2825 */
+/* patch=1,EE,0C985F0C,word,B3CA2871 */
+/* patch=1,EE,0C985F10,word,B3CA2873 */
+/* patch=1,EE,0C985F14,word,B3CA280D */
+/* patch=1,EE,0C985F18,word,BFD42875 */
+/* patch=1,EE,0C985F20,word,33A928EA */
+/* patch=1,EE,0C985F24,word,03BE28D0 */
+/* patch=1,EE,0C985F28,word,33D62FDB */
+/* patch=1,EE,0C9860D8,word,1DDF28EA */
+
+//新武将一人目能力MAX
+patch=1,EE,DD53C12E,extended,1CDE28EA
+patch=1,EE,0D53C12C,word,1DDF28EA
+patch=1,EE,0D53C130,word,1DDF28EA
+patch=1,EE,CD53C1EC,extended,1CDE2FD3
+patch=1,EE,0D53BEC0,word,11D32CE6
+patch=1,EE,DD53BEC4,extended,1CDE2CE6

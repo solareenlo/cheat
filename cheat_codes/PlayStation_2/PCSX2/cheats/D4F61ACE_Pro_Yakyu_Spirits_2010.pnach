@@ -1,0 +1,131 @@
+//[スピリッツ]
+//球速上限207
+patch=1,EE,002BD5C4,word,286300CF
+patch=1,EE,0017FB74,word,00000000
+patch=1,EE,0017FA40,word,00000000
+
+//ポイント足りなくても能力UP可能
+patch=1,EE,D1F1900C,extended,0000DCC0
+patch=1,EE,01F2ED88,word,34020000
+
+//ロック解除 修正１
+patch=1,EE,000FD000,word,2402FFFF
+patch=1,EE,000FD004,word,AC8208E0
+patch=1,EE,000FD008,word,AC8208E4
+patch=1,EE,000FD00C,word,AC8208E8
+patch=1,EE,000FD010,word,AC8208EC
+patch=1,EE,000FD014,word,AC8208F0
+patch=1,EE,000FD018,word,A48208F4
+patch=1,EE,000FD01C,word,AC820B40
+patch=1,EE,000FD020,word,AC820B44
+patch=1,EE,000FD024,word,AC820B48
+patch=1,EE,000FD028,word,AC820B4C
+patch=1,EE,000FD02C,word,AC820B50
+patch=1,EE,000FD030,word,AC820B54
+patch=1,EE,000FD034,word,080AAE90
+patch=1,EE,002AE724,word,0C03F400
+
+//1ターン進めると能力アップ画面
+patch=1,EE,D1F1900C,extended,0000DCC0
+patch=1,EE,01F83AC0,word,3403000E
+
+
+//[ペナント]
+//選手登録画面で表示させると投手絶好調
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01DE4E50,word,A260000A
+//注）登録画面を抜けるときは
+//決定を選択して抜けてね。
+
+//野手絶好調 ver2
+patch=1,EE,000FD500,word,8E650018
+patch=1,EE,000FD504,word,0016180B
+patch=1,EE,000FD508,word,087860D6
+patch=1,EE,000FD50C,word,A043000A
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01E18350,word,0803F540
+
+//選手登録画面で表示させると疲労なし ver2
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01DE5160,word,50620011
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01DE5164,word,AE600010
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01DE4578,word,50620012
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01DE457C,word,AE400010
+//注）情報切替で疲労を表示させてね。
+//登録画面を抜けるときは決定を選択して抜けてね。
+//登板間隔によるスタミナの減少は除く
+
+
+/* //[グランプリ] */
+/* //カード購入でSC減らない */
+/* patch=1,EE,D1F1900C,extended,0000FF40 */
+/* patch=1,EE,01F21054,word,34050000 */
+/*  */
+/* //作戦指示減らない */
+/* patch=1,EE,D1DD100C,extended,00002B40 */
+/* patch=1,EE,01E0A9A0,word,24630000 */
+/*  */
+/* //タイム減らない */
+/* patch=1,EE,D1DD100C,extended,00002B40 */
+/* patch=1,EE,01E0A9F0,word,24630000 */
+/*  */
+/* //コーチ派遣減らない */
+/* patch=1,EE,D1DD100C,extended,00002B40 */
+/* patch=1,EE,01E1A394,word,24840000 */
+/*  */
+/* //ここが勝負だ！減らない */
+/* patch=1,EE,D1DD100C,extended,00002B40 */
+/* patch=1,EE,01E1A308,word,24630000 */
+/* patch=1,EE,D1DD100C,extended,00002B40 */
+/* patch=1,EE,01E1A360,word,24630000 */
+/*  */
+/* //ユーザ設定制限解除 */
+/* patch=1,EE,002CA318,word,00000000 */
+/*  */
+/* //SC変動で9999999 */
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01EDEB80,word,3C030098 */
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01EDEB84,word,3463967F */
+/*  */
+/* //選手カード確認で疲労度０ */
+/* patch=1,EE,D1F1900C,extended,0000FF40 */
+/* patch=1,EE,01F3C2C0,word,A2800007 */
+/* patch=1,EE,D1F1900C,extended,0000FF40 */
+/* patch=1,EE,01F3C2C4,word,A20001FC */
+/*  */
+/* //獲得経験値 n倍 */
+/* patch=1,EE,D1F1900C,extended,0000FF40 */
+/* patch=1,EE,01F2BF6C,word,00108040 //2倍 */
+/* patch=1,EE,01F2BF6C,word,00108080 //4倍 */
+/* patch=1,EE,01F2BF6C,word,001080C0 //8倍 */
+/* patch=1,EE,01F2BF6C,word,00108100 //16倍 */
+/* patch=1,EE,01F2BF6C,word,00108140 //32倍 */
+/* patch=1,EE,01F2BF6C,word,00108180 //64倍 */
+
+
+//[スターダム]
+//ジムで消費すると経験値999999
+patch=1,EE,D1F5700C,extended,000022C0
+patch=1,EE,01FB3128,word,3C02000F
+patch=1,EE,D1F5700C,extended,000022C0
+patch=1,EE,01FB3134,word,3442423F
+
+//所持金変動で最大
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01EC1D8C,word,00000000
+
+//カラダ減らない
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01EC184C,word,34030000
+
+//チョウシ変動で絶好調 修正１
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01EC1BA4,word,34020000
+
+//ココロ真ん中
+patch=1,EE,D1DD100C,extended,0000ED40
+patch=1,EE,01EC1C34,word,34050000

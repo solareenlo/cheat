@@ -1,0 +1,37 @@
+//無限ジャンプ
+patch=1,EE,001E9FC0,word,50000017
+
+//物理攻撃の威力が高くなる
+patch=1,EE,001DC098,word,3C024100
+patch=1,EE,001DC09C,word,44820800
+
+//ボーナス全開
+patch=1,EE,002DACD4,word,FFFFFFFF
+
+//サイクロプス全部
+patch=1,EE,003373FC,word,00000014
+
+//クレイトス 体力ゲージ減らない
+/* patch=1,EE,001D944C,word,C48C017C */
+/* patch=1,EE,0021BCFC,word,0C03FE05 */
+/* patch=1,EE,0020C740,word,0C03FE00 */
+/* patch=1,EE,000FF800,word,C6010178 */
+/* patch=1,EE,000FF804,word,3C190010 */
+/* patch=1,EE,000FF808,word,AF30F7D0 */
+/* patch=1,EE,000FF80C,word,03E00008 */
+/* patch=1,EE,000FF814,word,C6150178 */
+/* patch=1,EE,000FF818,word,3C190010 */
+/* patch=1,EE,000FF81C,word,8F39F7D0 */
+/* patch=1,EE,000FF820,word,17300002 */
+/* patch=1,EE,000FF828,word,4480A000 */
+/* patch=1,EE,000FF82C,word,03E00008 */
+
+//パワーオーブ
+patch=1,EE,003017A8,word,00007530
+
+//魔法ゲージ減らない
+/* patch=1,EE,002162DC,word,00000000 */
+
+//タイタンゲージ減らない
+/* patch=1,EE,00212BA4,word,3C0142C8 */
+/* patch=1,EE,00212BAC,word,44810000 */

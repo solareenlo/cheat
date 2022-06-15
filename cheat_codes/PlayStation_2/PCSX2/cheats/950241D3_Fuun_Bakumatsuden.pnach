@@ -1,0 +1,81 @@
+//主人公
+//体力500
+patch=1,EE,0048CBFC,word,01F401F4
+
+//任務中 プレイヤー体力最大維持
+patch=1,EE,00190DA0,word,868301D2
+patch=1,EE,00190DA8,word,A68301CE
+//1Pプレイヤー討伐数999
+patch=1,EE,0048F430,short,03E7
+//銃の残弾減らない
+patch=1,EE,001A1790,word,00000000
+patch=1,EE,001A17B4,word,00000000
+//プレイヤー 銃再装填不要
+patch=1,EE,001C9388,word,24020001
+patch=1,EE,001C938C,word,AEA20098
+patch=1,EE,001C9390,word,1000000A
+//プレイヤー 銃の残弾減らない
+patch=1,EE,001C903C,word,24040063
+patch=1,EE,001C9040,word,AC44008C
+
+//同行者 体力最大維持
+patch=1,EE,001CA350,word,866301D2
+patch=1,EE,001CA358,word,A66301CE
+patch=1,EE,001CA364,word,44831000
+//同行者 連携ゲージMAX
+patch=1,EE,001CA5A8,word,AE820020
+
+//剣術形編集 技装備で熟練度制限なし
+patch=1,EE,00200B20,word,24100063
+//剣術抜刀術編集：技装備で熟練度制限なし
+patch=1,EE,0020C30C,word,24100063
+//剣術編集時総熟練度99に上昇
+patch=1,EE,001F596C,word,24090063
+patch=1,EE,001F5978,word,A0690000
+//剣術編集 連携技全部
+patch=1,EE,001F9E90,word,24010001
+patch=1,EE,001F9E94,word,A0413CDC
+patch=1,EE,0022212C,word,24010001
+patch=1,EE,00222130,word,A0413CDC
+//剣術編集 取得技全部
+patch=1,EE,00224210,word,24010001
+patch=1,EE,00224218,word,A041289F
+//剣術編集 全形入れ替え可能
+patch=1,EE,001F363C,word,24060001
+patch=1,EE,001F3640,word,A4860020
+
+//偉人録全開
+patch=1,EE,0048F404,word,00000000
+patch=1,EE,0048F408,word,00000000
+patch=1,EE,0048F40C,word,00000000
+//資料閲覧 人物名鑑、閲覧すると全開
+patch=1,EE,0022D2E4,word,24030001
+patch=1,EE,0022D2E8,word,A0A33C04
+//対戦＆挑戦モード 全キャラ出現
+patch=1,EE,0048E054,word,FFFFFFFF
+patch=1,EE,0048E058,word,FFFFFFFF
+patch=1,EE,0048E05C,word,FFFFFFFF
+patch=1,EE,0048E060,word,FFFFFFFF
+patch=1,EE,0048E064,word,FFFFFFFF
+patch=1,EE,0048E068,word,FFFFFFFF
+//動画鑑賞全開
+patch=1,EE,0048E030,word,01010101
+patch=1,EE,0048E034,word,01010101
+patch=1,EE,0048E038,word,01010101
+patch=1,EE,0048E03C,word,01010101
+patch=1,EE,0048E040,word,01010101
+patch=1,EE,0048E044,word,01010101
+patch=1,EE,0048E048,word,01010101
+patch=1,EE,0048E04E,byte,01
+patch=1,EE,0048E04C,short,0101
+patch=1,EE,0048E02E,short,0101
+//歴史年表全開
+patch=1,EE,0048E00C,word,FFFFFFFF
+patch=1,EE,0048E010,word,FFFFFFFF
+patch=1,EE,0048E014,word,FFFFFFFF
+patch=1,EE,0048E018,word,FFFFFFFF
+patch=1,EE,0048E01C,word,FFFFFFFF
+patch=1,EE,0048E020,word,FFFFFFFF
+patch=1,EE,0048E024,word,FFFFFFFF
+patch=1,EE,0048E028,word,FFFFFFFF
+patch=1,EE,0048E02C,short,FFFF

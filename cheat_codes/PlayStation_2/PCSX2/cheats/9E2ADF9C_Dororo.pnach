@@ -1,0 +1,20 @@
+//アイテム必ず落とす
+patch=1,EE,8000A00E,extended,42386412
+patch=1,EE,3000A010,extended,001C6008
+patch=1,EE,8000A012,extended,00200004
+patch=1,EE,3000A014,extended,00251468
+patch=1,EE,8000A016,extended,04111468
+patch=1,EE,8000A01A,extended,24042200
+patch=1,EE,3000A01C,extended,00088000
+patch=1,EE,8000A01E,extended,24100486
+patch=1,EE,3000A020,extended,00302466
+patch=1,EE,8000A022,extended,04112202
+patch=1,EE,3000A028,extended,002E0862
+patch=1,EE,8000A02A,extended,04110266
+patch=1,EE,8000A02C,extended,88210866
+
+//Ammo does not decrease
+patch=1,EE,0023A0B8,word,24420000
+
+//Missiles do not decrease
+patch=1,EE,0023A1F8,word,24420000

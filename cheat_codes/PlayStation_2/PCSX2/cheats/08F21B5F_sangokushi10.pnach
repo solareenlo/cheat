@@ -1,0 +1,13 @@
+//新武将1人目
+/* patch=1,EE,01A53BD2,short,EA60 //功績MAX */
+/* patch=1,EE,01A53BD4,short,03E8 //名声MAX */
+patch=1,EE,01A53BD8,byte,FF //統率255
+patch=1,EE,01A53BDC,byte,FF //武力255
+patch=1,EE,01A53BE0,byte,FF //知力255
+patch=1,EE,01A53BE4,byte,FF //政治255
+patch=1,EE,01A53BE8,byte,FF //魅力255
+patch=1,EE,01A53C18,word,FFFFFFFF //特技全部
+patch=1,EE,01A53C1C,word,0000FFFF //特技全部
+
+//所持金増加でMAX
+patch=1,EE,005FB914,word,10000005

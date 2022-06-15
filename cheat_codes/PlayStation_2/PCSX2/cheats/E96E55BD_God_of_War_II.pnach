@@ -1,0 +1,33 @@
+//無限ジャンプ
+patch=1,EE,002263F4,word,00000000
+
+//ボーナス全開
+patch=1,EE,002DACD4,word,FFFFFFFF
+//note :
+//1. load your save data
+//2. exit from your save data
+//3. start new game
+
+//赤オーブ999999
+patch=1,EE,003373D0,word,000F423F
+
+//Have All Gorgon Eyes
+patch=1,EE,003373DD,byte,12
+
+//Have All Phoenix Feathers
+patch=1,EE,003373F7,word,00000012
+
+//Have All Cyclops Eyes
+patch=1,EE,003373FC,word,00000014
+
+//武器攻撃力倍数
+//1CB8C564 2055xxxx
+//patch=1,EE,00214240,word,44810000
+//xxxxの値
+//25A5 32倍
+//2625 16倍
+//26A5 8倍
+//2725 4倍
+//27A5 2倍(Easyレベル)
+//F025 1倍(Normalレベル)
+//F065 0.75倍(VeryHardレベル)

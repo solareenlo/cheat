@@ -1,0 +1,166 @@
+//どこでもセーブ
+patch=1,EE,E0031620,extended,00267B96
+patch=1,EE,00267B88,word,24080001
+patch=1,EE,00267B8C,word,A0680088
+patch=1,EE,00267B94,word,1273000C
+
+//常にトレジャージュエル
+patch=1,EE,D02D8392,extended,00001840
+patch=1,EE,002D8390,word,24020002
+
+//常にセフティジュエル
+patch=1,EE,D02D83BE,extended,00001840
+patch=1,EE,002D83BC,word,24020002
+
+//ショップ全アイテム1フォル
+patch=1,EE,D02FA782,extended,00001440
+patch=1,EE,002FA780,word,14210003
+
+//ショップで全アイテム購入可能
+patch=1,EE,E0051100,extended,002FA986
+patch=1,EE,002FA154,word,24020014
+patch=1,EE,002FA504,word,24030017
+patch=1,EE,002FA8FC,word,10C60006
+patch=1,EE,002FA91C,word,105F0034
+patch=1,EE,002FA984,word,11080013
+
+//SP振り分けると9999
+/* patch=1,EE,D035614C,extended,0000200A */
+/* patch=1,EE,0035614C,word,00052025 */
+
+//ヒートアップゲージ上昇でMAX
+patch=1,EE,D03F7188,extended,00001BB2
+patch=1,EE,003F7188,word,2A010000
+
+//CHAINすると999
+patch=1,EE,D03F70F4,extended,000027C0
+patch=1,EE,003F70F4,word,70000F88
+
+/* //バトルスキルCP制限無し 04.02.02修正 */
+patch=1,EE,D03530E0,extended,00000128
+patch=1,EE,003530E0,word,70003FC8
+
+//HPダメージアイテムで指定ダメージ 04.02.02改良
+/* patch=1,EE,E00396B3,extended,00374CC0 */
+/* patch=1,EE,00374CB4,word,14200001 */
+//1CA2CFE4 2054yyyy
+//1CA2CFE8 2883xxxx
+//yyyy xxxx＝ダメージ量指定
+//E7A5 D728＝111
+//E7A5 D717＝222
+//E7A5 D686＝333
+//E7A5 D5CC＝555
+//E7A5 D4AA＝777
+//E7A5 0AE4＝5555
+//E7A5 0192＝7777
+//E7A6 F002＝77777
+//E7A5 EC99＝11000
+//E7A5 81E7＝22000
+//B00B C768＝77777回復
+//11000は通常難易度のサーフェリオ水中庭園のプルート
+//22000は同難易度の物語最後のエリクール2号星に出てくる
+//ユアンティのHPに合わせたジャストダメージ一発撃破のBC用です
+//77777回復は効果範囲大のアイテムで味方を巻き込んで下さい。
+
+//HP変動で指定値
+/* patch=1,EE,D01E5682,extended,00000062 */
+//1C89D9A8 3859xxxx
+//xxxx＝変動後HP指定
+//3296＝戦闘不能
+//3297＝HP1
+//3298＝HP2
+//3291＝HP3
+//3292＝HP4
+//3293＝HP5
+//BCに紙一重勝利HP1～5の5つがあるので取得用コードです
+//パーティ3人の合計HPが1～5のどれかだと取得するので
+//誰か戦闘不能にするなどして微調整して下さい。
+
+//特技&紋章術でガッツ減らない
+/* patch=1,EE,D0290552,extended,0000E615 */
+/* patch=1,EE,00290550,word,AE000000 */
+
+//敵アイテム必ず落とす
+patch=1,EE,D0252C18,extended,00000035
+patch=1,EE,00252C18,word,179C0036
+
+//入手アイテムランダム化
+/* patch=1,EE,E002282D,extended,00252C30 */
+/* patch=1,EE,00252C2C,word,0C0432CC */
+/* patch=1,EE,00252C30,word,240402EF */
+
+//獲得フォルxx倍
+patch=1,EE,D0253346,extended,00003042
+patch=1,EE,0025334C,word,00129100 //16倍
+//獲得経験値xx倍
+patch=1,EE,E002902D,extended,00252FD8
+patch=1,EE,00252FD0,word,4A0002FF
+patch=1,EE,00252FD8,word,00129080 //4倍
+
+//獲得フォルxx倍
+/* patch=1,EE,D0253346,extended,00003042 */
+//1CB4B474 14445xxx
+//獲得経験値xx倍
+/* patch=1,EE,E002902D,extended,00252FD8 */
+/* patch=1,EE,00252FD0,word,4A0002FF */
+//1CB4B000 14445xxx
+//xxx＝倍化指定
+//765＝2倍
+//725＝4倍
+//7E5＝8倍
+//6A5＝16倍
+//768＝1/2
+//728＝1/4
+
+//獲得フォルxx
+/* patch=1,EE,E003F4B5,extended,00253324 */
+/* patch=1,EE,00253310,word,14200001 */
+//1CB4B440 2044yyyy
+//1CB4B44C 2A84xxxx
+//獲得経験値xx
+/* patch=1,EE,E003FF3A,extended,00252FD4 */
+/* patch=1,EE,00252FB0,word,14200001 */
+//1CB4B0E4 2044yyyy
+//1CB4B0FC 2A84xxxx
+//yyyy xxxx＝値指定
+//E7A5 E7A6＝1
+//E7A5 E611＝500
+//E7A5 E4FD＝1000
+//E7A5 D41D＝5000
+//E7A5 08B5＝10000
+//E7A6 6945＝100000
+//E79C 2565＝1000000
+//E72D 5925＝10000000
+//EA12 C6A5＝100000000
+//EC2F 9E0C＝999999999
+
+
+//クリエイション全Lv255 04.02.02追加
+//フェイト
+patch=1,EE,00503A50,word,FFFFFFFF
+patch=1,EE,00503A54,word,FFFFFFFF
+//ソフィア
+patch=1,EE,00503A5D,byte,FF
+patch=1,EE,00503A5E,short,FFFF
+patch=1,EE,00503A60,word,FFFFFFFF
+patch=1,EE,00503A64,byte,FF
+//マリア
+patch=1,EE,00503A6A,short,FFFF
+patch=1,EE,00503A6C,word,FFFFFFFF
+patch=1,EE,00503A70,short,FFFF
+//クリフ
+patch=1,EE,00503A77,byte,FF
+patch=1,EE,00503A78,word,FFFFFFFF
+patch=1,EE,00503A7C,short,FFFF
+patch=1,EE,00503A7E,byte,FF
+//ネル
+patch=1,EE,00503A84,word,FFFFFFFF
+patch=1,EE,00503A88,word,FFFFFFFF
+//アドレー
+patch=1,EE,00503AB8,word,FFFFFFFF
+patch=1,EE,00503ABC,word,FFFFFFFF
+//ミラージュ
+patch=1,EE,00503AC5,byte,FF
+patch=1,EE,00503AC6,short,FFFF
+patch=1,EE,00503AC8,word,FFFFFFFF
+patch=1,EE,00503ACC,byte,FF

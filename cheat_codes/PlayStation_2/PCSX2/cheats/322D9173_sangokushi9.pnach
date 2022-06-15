@@ -1,0 +1,95 @@
+//新武将1人目?10人目兵法熟練値増加32倍
+/* patch=1,EE,00177BFC,word,0803CC14 */
+/* patch=1,EE,000F3050,word,3C080074 */
+/* patch=1,EE,000F3054,word,35093000 */
+/* patch=1,EE,000F3058,word,252A1000 */
+/* patch=1,EE,000F305C,word,0229582B */
+/* patch=1,EE,000F3060,word,1560000B */
+/* patch=1,EE,000F3068,word,022A602B */
+/* patch=1,EE,000F306C,word,11800008 */
+/* patch=1,EE,000F3074,word,7BAD0000 */
+/* patch=1,EE,000F3078,word,000D7140 */
+/* patch=1,EE,000F307C,word,7FAE0000 */
+/* patch=1,EE,000F3090,word,0805DF02 */
+
+
+//必須コード
+patch=1,EE,0011E5A4,word,0803C400
+patch=1,EE,000F1234,word,03E00008
+//以下のコードを使用するときは必ず一緒に使用してください
+
+//全新武将ステータスMAX
+//（能力は255に設定してあります）
+patch=1,EE,000F1000,word,3C040074
+patch=1,EE,000F1004,word,348434B0
+patch=1,EE,000F1008,word,24050037
+patch=1,EE,000F100C,word,3C06000F
+patch=1,EE,000F1010,word,DCC71500
+patch=1,EE,000F1018,word,FC870000
+patch=1,EE,000F101C,word,FC870008
+patch=1,EE,000F1020,word,FC870010
+patch=1,EE,000F1024,word,FC870018
+patch=1,EE,000F1028,word,FC870020
+patch=1,EE,000F102C,word,FC870028
+patch=1,EE,000F1030,word,FC870030
+patch=1,EE,000F1034,word,FC870038
+patch=1,EE,000F1038,word,24A5FFFF
+patch=1,EE,000F103C,word,24840148
+patch=1,EE,000F1044,word,14A0FFF4
+patch=1,EE,000F1500,word,000000FF
+patch=1,EE,000F1504,word,000000FF
+
+//新武将全員兵法熟練度MAX
+//（値は1000に設定してあります）
+/* patch=1,EE,000F1100,word,3C080074 */
+/* patch=1,EE,000F1104,word,35083528 */
+/* patch=1,EE,000F1108,word,24090037 */
+/* patch=1,EE,000F110C,word,3C0A000F */
+/* patch=1,EE,000F1110,word,DD4B1510 */
+/* patch=1,EE,000F1118,word,FD0B0000 */
+/* patch=1,EE,000F111C,word,FD0B0008 */
+/* patch=1,EE,000F1120,word,A50B0010 */
+/* patch=1,EE,000F1124,word,2529FFFF */
+/* patch=1,EE,000F1128,word,25080148 */
+/* patch=1,EE,000F1130,word,1520FFF9 */
+/* patch=1,EE,000F1510,word,03E803E8 */
+/* patch=1,EE,000F1514,word,03E803E8 */
+
+//信望上昇でMAX
+/* patch=1,EE,0015F4EC,word,AE060018 */
+
+//育成P上昇でMAX
+/* patch=1,EE,001675DC,word,AE0600D8 */
+
+//人口増加で人口100万以上になる(全都市ではない)条件は良くわからず
+/* patch=1,EE,00157AF0,word,AE0601CC */
+
+//巡察すると民心1000
+/* patch=1,EE,00157B7C,word,AE0601D4 */
+
+//商業で収益1000
+/* patch=1,EE,00157C3C,word,AE0601DC */
+
+//開墾で収穫1000
+/* patch=1,EE,00157CAC,word,AE0601E0 */
+
+//新規武将登録兵法PMAX
+patch=1,EE,0037DEA0,word,241002C6
+patch=1,EE,0037DEC8,word,241002C6
+
+//新武将全員戦略フェイズ行動回数無制限
+//（何度でも命令できます）
+patch=1,EE,000F11A0,word,3C040074
+patch=1,EE,000F11A4,word,3484356D
+patch=1,EE,000F11A8,word,24050037
+patch=1,EE,000F11AC,word,24060001
+patch=1,EE,000F11B0,word,A0860000
+patch=1,EE,000F11B4,word,24A5FFFF
+patch=1,EE,000F11B8,word,24840148
+patch=1,EE,000F11C8,word,14A0FFF9
+
+//育成ポイントへらない
+/* patch=1,EE,00167600,word,0C03D800 */
+/* patch=1,EE,000F6000,word,0080400A */
+/* patch=1,EE,000F6004,word,080A7654 */
+/* patch=1,EE,00167608,word,AE0800D8 */

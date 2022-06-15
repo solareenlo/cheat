@@ -1,0 +1,10 @@
+//チャレンジ全部成功フラグ
+patch=1,EE,0044A0DA,byte,00
+patch=1,EE,01BB19F4,byte,01
+
+//織田信長 能力ステ最大
+/* patch=1,EE,CD0C9739,extended,1CDE2FEA */
+/* patch=1,EE,DD0C973E,extended,1CDE28EA */
+/* patch=1,EE,CD0C973C,extended,1CDE2FEA */
+/* patch=1,EE,DD0C97B6,extended,1CDE28EA */
+/* patch=1,EE,0D0C97B4,word,1DDF28EA */
