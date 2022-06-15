@@ -1,0 +1,194 @@
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite HP Mazinger Z]
+8013A3EE 270F
+8013A698 270F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite HP Aphrodite A]
+801384FC 270F
+80138252 270F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite & Max HP Kouji Kabuto]
+80139B64 270F
+801398BA 270F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite HP GaoGaiGar]
+80139C76 270F
+80139F20 270F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite HP Boss Borot]
+8013860E 270F
+801388B8 270F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*Max Money]
+9006E8F0 5F5E0FF
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[All Items]
+9016C2DC FFFFFFFF
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite Movement]
+D0154A78 0101
+8007C04C 0001
+D0154A78 0102
+8007C04C 0000
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Weapons Level 15]
+3013A440 000F
+3013B1D8 000F
+301330E8 000F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite Bullets]
+D007993E 2442
+8007993C 0000
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite En]
+A60B7392 650060
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[All Demos]
+A70E4C2E 10401400
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[No Need For Must Have Attack Power]
+A70BE08A 14401400
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Mortal blow]
+D005C208 0101
+800C09BA 1400
+D005C208 0102
+800C09BA 1440
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Select Stage!(01-81) Enabled Last Stage]
+800701DC 0081
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[LV99 If you gain experience]
+A60B49D6 10401440
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Infinite Behavior]
+A60D7FF6 10401440
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Not decrease SP (full version)]
+A60B4F32 520040
+A60B4FFA 450040
+A60B4FA2 520040
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Not decrease EN (full version)]
+A60B6EF8 2CA0020
+A60B7392 650060
+A60B7342 B000A0
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Demo select fully open]
+8005C4D0 FFFF
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Robot Dictionary fully open + 02h]
+8009E790 FFFF
+8009E7C6 FFFF
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Character dictionary fully open + 02h]
+8009E7D0 FFFF
+8009E7FA FFFF
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Savw anywhere]
+A710977E 10401000
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*halo]
+8016C2E6 0909
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*chou-goukin-new-z]
+8016C2EA 0909
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*chou-goukin-z]
+8016C2E8 0909
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*minofskey-drive]
+8016C2EE 0909
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*mega-buster]
+8016C2E0 0909
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*psycho-frame]
+8016C2E4 0909
+
