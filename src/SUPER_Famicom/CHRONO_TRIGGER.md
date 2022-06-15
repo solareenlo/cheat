@@ -1,0 +1,57 @@
+# クロノ・トリガー
+```
+  cheat
+    description:所持金MAX
+    code:7E2C53=7F+7E2C54=96+7E2C55=98
+  cheat enabled
+    description:獲得経験値2倍
+    code:FDABDA=0A
+  cheat enabled
+    description:獲得金2倍
+    code:FDABE5=0A
+  cheat enabled
+    description:獲得わざポイント2倍
+    code:FDABF5=0A
+  cheat
+    description:32個目にヘイストメットを3つ所持
+    code:7E2420=91+7E2520=03
+  cheat
+    description:96番目にプリズムドレスを3つ所持
+    code:7E2460=6C+7E2560=03
+  cheat
+    description:97番目にノヴァアーマーを3つ所持
+    code:7E2461=6B+7E2561=03
+  cheat
+    description:98番目にゴールドピアスを3つ所持
+    code:7E2462=A3+7E2562=03
+  cheat
+    description:99番目ににじのメガネを3つ所持
+    code:7E2463=BB+7E2563=03
+  cheat
+    description:100番目にげきどのうでわを3つ所持
+    code:7E2464=7A+7E2564=03
+  cheat
+    description:101番目ににじを1つ所持
+    code:7E2465=55+7E2565=01
+  cheat
+    description:102番目にワルキューレを1つ所持
+    code:7E2466=19+7E2566=01
+  cheat
+    description:103番目にミラクルショットを1つ所持
+    code:7E2467=28+7E2567=01
+  cheat
+    description:104番目にクライシスアームを1つ所持
+    code:7E2468=39+7E2568=01
+  cheat
+    description:105番目にぜつぼうのかまを1つ所持
+    code:7E2469=4E+7E2569=01
+  cheat
+    description:15番目にパワーカプセルを99つ所持
+    code:7E240E=CD+7E250E=63
+  cheat
+    description:16番目にマジックカプセルを99つ所持
+    code:7E240F=CE+7E250F=63
+  cheat
+    description:17番目にスピードカプセルを99つ所持
+    code:7E2410=CF+7E2510=63
+```
