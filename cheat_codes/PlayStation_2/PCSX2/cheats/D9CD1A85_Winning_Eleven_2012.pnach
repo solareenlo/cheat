@@ -1,0 +1,61 @@
+//(ビカム)エディットポイント減らない
+patch=1,EE,00A63688,byte,14
+//(ビカム)特殊能力ポイント減らない
+patch=1,EE,00A63690,byte,00
+
+//WENMAX
+/* patch=1,EE,0188CCE4,short,270F */
+
+//マスターリーグ資金MAX
+/* patch=1,EE,008D41D4,word,0001869F */
+//マスターリーグファンクラブ会員数MAX
+/* patch=1,EE,008B490C,word,3B9AC9FF */
+
+//【エディット上限表示拡大】
+patch=1,EE,002C547C,word,2402007F
+patch=1,EE,002C5524,word,2402007F
+patch=1,EE,002CEB28,word,2405007F
+patch=1,EE,002D04F0,word,2405007F
+patch=1,EE,002D0524,word,2405007F
+
+//【エディット上限を99から127に拡大】
+patch=1,EE,E00A0032,extended,00C0D004
+patch=1,EE,00C52608,word,2413007F
+patch=1,EE,00C64C30,word,28610080
+patch=1,EE,00C64C3C,word,2408007F
+patch=1,EE,00C64EE8,word,2404007F
+patch=1,EE,00C65228,word,28610080
+patch=1,EE,00C65234,word,2405007F
+patch=1,EE,00C65490,word,2405007F
+patch=1,EE,00C69DD8,word,2406007F
+patch=1,EE,00C77E30,word,2415007F
+patch=1,EE,00C7E554,word,2407007F
+
+//【能力値改変二段階】
+/* patch=1,EE,000F5000,word,14200004 */
+/* patch=1,EE,000F5008,word,24040178 */
+/* patch=1,EE,000F500C,word,10000005 */
+/* patch=1,EE,000F5014,word,28810075 */
+/* patch=1,EE,000F5018,word,14200002 */
+/* patch=1,EE,000F5020,word,240400FF */
+/* patch=1,EE,000F5024,word,00A4082B */
+/* patch=1,EE,000F5028,word,54200003 */
+/* patch=1,EE,000F502C,word,00852023 */
+/* patch=1,EE,000F5030,word,0809EAC6 */
+/* patch=1,EE,000F5034,word,0000102D */
+/* patch=1,EE,000F5038,word,0809EABD */
+/* patch=1,EE,0027A4D8,word,00000000 */
+/* patch=1,EE,0027AAE0,word,0803D400 */
+/* patch=1,EE,0027AAE4,word,28810078 */
+//※能力パラメータ値117(不調時124)以上255化
+//120(不調時127)以上で376化
+
+//【調子不調固定】
+/* patch=1,EE,00268904,word,24050003 */
+/* patch=1,EE,00279EC0,word,24120003 */
+/* patch=1,EE,0027AA84,word,24020003 */
+/* patch=1,EE,002FA0C8,word,24020003 */
+
+//【エディット身長255cm固定】
+/* patch=1,EE,E0010032,extended,00C0D004 */
+/* patch=1,EE,00D8A86C,byte,6B */
