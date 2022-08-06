@@ -1,8 +1,8 @@
 //[スピリッツ]
 //球速上限207
-patch=1,EE,002BD5C4,word,286300CF
-patch=1,EE,0017FB74,word,00000000
-patch=1,EE,0017FA40,word,00000000
+/* patch=1,EE,002BD5C4,word,286300CF */
+/* patch=1,EE,0017FB74,word,00000000 */
+/* patch=1,EE,0017FA40,word,00000000 */
 
 //ポイント足りなくても能力UP可能
 patch=1,EE,D1F1900C,extended,0000DCC0
@@ -32,28 +32,28 @@ patch=1,EE,01F83AC0,word,3403000E
 
 //[ペナント]
 //選手登録画面で表示させると投手絶好調
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01DE4E50,word,A260000A
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01DE4E50,word,A260000A */
 //注）登録画面を抜けるときは
 //決定を選択して抜けてね。
 
 //野手絶好調 ver2
-patch=1,EE,000FD500,word,8E650018
-patch=1,EE,000FD504,word,0016180B
-patch=1,EE,000FD508,word,087860D6
-patch=1,EE,000FD50C,word,A043000A
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01E18350,word,0803F540
+/* patch=1,EE,000FD500,word,8E650018 */
+/* patch=1,EE,000FD504,word,0016180B */
+/* patch=1,EE,000FD508,word,087860D6 */
+/* patch=1,EE,000FD50C,word,A043000A */
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01E18350,word,0803F540 */
 
 //選手登録画面で表示させると疲労なし ver2
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01DE5160,word,50620011
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01DE5164,word,AE600010
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01DE4578,word,50620012
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01DE457C,word,AE400010
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01DE5160,word,50620011 */
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01DE5164,word,AE600010 */
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01DE4578,word,50620012 */
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01DE457C,word,AE400010 */
 //注）情報切替で疲労を表示させてね。
 //登録画面を抜けるときは決定を選択して抜けてね。
 //登板間隔によるスタミナの減少は除く
@@ -109,23 +109,23 @@ patch=1,EE,01DE457C,word,AE400010
 
 //[スターダム]
 //ジムで消費すると経験値999999
-patch=1,EE,D1F5700C,extended,000022C0
-patch=1,EE,01FB3128,word,3C02000F
-patch=1,EE,D1F5700C,extended,000022C0
-patch=1,EE,01FB3134,word,3442423F
+/* patch=1,EE,D1F5700C,extended,000022C0 */
+/* patch=1,EE,01FB3128,word,3C02000F */
+/* patch=1,EE,D1F5700C,extended,000022C0 */
+/* patch=1,EE,01FB3134,word,3442423F */
 
 //所持金変動で最大
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01EC1D8C,word,00000000
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01EC1D8C,word,00000000 */
 
 //カラダ減らない
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01EC184C,word,34030000
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01EC184C,word,34030000 */
 
 //チョウシ変動で絶好調 修正１
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01EC1BA4,word,34020000
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01EC1BA4,word,34020000 */
 
 //ココロ真ん中
-patch=1,EE,D1DD100C,extended,0000ED40
-patch=1,EE,01EC1C34,word,34050000
+/* patch=1,EE,D1DD100C,extended,0000ED40 */
+/* patch=1,EE,01EC1C34,word,34050000 */
