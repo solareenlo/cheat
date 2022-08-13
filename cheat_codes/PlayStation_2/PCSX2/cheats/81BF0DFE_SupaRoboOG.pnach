@@ -1,0 +1,24 @@
+//資金変動で最大
+patch=1,EE,00580820,word,05F5E0FF
+
+//改造限界15
+//HP改造
+patch=1,EE,001A71D4,word,2402000F
+//EN改造
+patch=1,EE,001A7148,word,2402000F
+//運動性改造
+patch=1,EE,001A70C4,word,2402000F
+//装甲改造
+patch=1,EE,001A7038,word,2402000F
+//パーツ4個装備
+patch=1,EE,001A77A8,word,24020003
+
+//獲得PPn倍
+patch=1,EE,00272628,word,0C03D304
+//patch=1,EE,000F4C10,word,2401006D //2倍
+//patch=1,EE,000F4C10,word,24010004 //4倍
+patch=1,EE,000F4C10,word,2401000A //10倍
+//patch=1,EE,000F4C10,word,24010064 //100倍
+patch=1,EE,000F4C14,word,00A12818
+patch=1,EE,000F4C18,word,0807C3F4
+patch=1,EE,000F4C1C,word,AC450014
