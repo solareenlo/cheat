@@ -52,3 +52,6 @@ patch=1,EE,000F2008,word,00A72821
 //patch=1,EE,00542654,word,3C024019
 patch=1,EE,00542320,word,3C02404C //4倍
 patch=1,EE,00542654,word,3C02404C
+
+//カジノのコイン 9999999
+patch=1,EE,0079ADE8,word,0098967F
