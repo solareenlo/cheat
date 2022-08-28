@@ -1,8 +1,8 @@
 //どこでもセーブ
-patch=1,EE,E0031620,extended,00267B96
-patch=1,EE,00267B88,word,24080001
-patch=1,EE,00267B8C,word,A0680088
-patch=1,EE,00267B94,word,1273000C
+/* patch=1,EE,E0031620,extended,00267B96 */
+/* patch=1,EE,00267B88,word,24080001 */
+/* patch=1,EE,00267B8C,word,A0680088 */
+/* patch=1,EE,00267B94,word,1273000C */
 
 //常にトレジャージュエル
 patch=1,EE,D02D8392,extended,00001840
@@ -13,16 +13,16 @@ patch=1,EE,D02D83BE,extended,00001840
 patch=1,EE,002D83BC,word,24020002
 
 //ショップ全アイテム1フォル
-patch=1,EE,D02FA782,extended,00001440
-patch=1,EE,002FA780,word,14210003
+/* patch=1,EE,D02FA782,extended,00001440 */
+/* patch=1,EE,002FA780,word,14210003 */
 
 //ショップで全アイテム購入可能
-patch=1,EE,E0051100,extended,002FA986
-patch=1,EE,002FA154,word,24020014
-patch=1,EE,002FA504,word,24030017
-patch=1,EE,002FA8FC,word,10C60006
-patch=1,EE,002FA91C,word,105F0034
-patch=1,EE,002FA984,word,11080013
+/* patch=1,EE,E0051100,extended,002FA986 */
+/* patch=1,EE,002FA154,word,24020014 */
+/* patch=1,EE,002FA504,word,24030017 */
+/* patch=1,EE,002FA8FC,word,10C60006 */
+/* patch=1,EE,002FA91C,word,105F0034 */
+/* patch=1,EE,002FA984,word,11080013 */
 
 //SP振り分けると9999
 /* patch=1,EE,D035614C,extended,0000200A */
@@ -33,8 +33,12 @@ patch=1,EE,D03F7188,extended,00001BB2
 patch=1,EE,003F7188,word,2A010000
 
 //CHAINすると999
-patch=1,EE,D03F70F4,extended,000027C0
-patch=1,EE,003F70F4,word,70000F88
+/* patch=1,EE,D03F70F4,extended,000027C0 */
+/* patch=1,EE,003F70F4,word,70000F88 */
+
+//特技&紋章術でガッツ減らない
+patch=1,EE,D0290552,extended,0000E615
+patch=1,EE,00290550,word,AE000000
 
 /* //バトルスキルCP制限無し 04.02.02修正 */
 patch=1,EE,D03530E0,extended,00000128
@@ -76,10 +80,6 @@ patch=1,EE,003530E0,word,70003FC8
 //パーティ3人の合計HPが1～5のどれかだと取得するので
 //誰か戦闘不能にするなどして微調整して下さい。
 
-//特技&紋章術でガッツ減らない
-/* patch=1,EE,D0290552,extended,0000E615 */
-/* patch=1,EE,00290550,word,AE000000 */
-
 //敵アイテム必ず落とす
 patch=1,EE,D0252C18,extended,00000035
 patch=1,EE,00252C18,word,179C0036
@@ -92,10 +92,21 @@ patch=1,EE,00252C18,word,179C0036
 //獲得フォルxx倍
 patch=1,EE,D0253346,extended,00003042
 patch=1,EE,0025334C,word,00129100 //16倍
+
 //獲得経験値xx倍
 patch=1,EE,E002902D,extended,00252FD8
 patch=1,EE,00252FD0,word,4A0002FF
 patch=1,EE,00252FD8,word,00129080 //4倍
+
+//獲得経験値人数分割なし
+/* patch=1,EE,D0240D74,extended,00009012 */
+/* patch=1,EE,00240D74,word,24020001 */
+
+//レベルアップ時の能力値増加量2倍
+/* patch=1,EE,003C3EFC,word,0015A840 //最大HP */
+/* patch=1,EE,003C44FC,word,0015A840 //最大MP */
+/* patch=1,EE,003C497C,word,00139840 //SP */
+/* patch=1,EE,003C4EF0,word,00021040 //ATK・DEF・AGL・HIT・INT */
 
 //獲得フォルxx倍
 /* patch=1,EE,D0253346,extended,00003042 */
