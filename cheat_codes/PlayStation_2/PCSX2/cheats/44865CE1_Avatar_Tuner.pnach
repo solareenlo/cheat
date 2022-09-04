@@ -1,0 +1,8 @@
+//マッカ獲得倍率50倍
+patch=1,EE,001A7AA4,word,00108042
+
+//KARMA(EXP)獲得倍率2倍
+patch=1,EE,001A4130,word,00118840
+
+//ATMA POINT(AP)獲得倍率2倍
+patch=1,EE,001A78B8,word,00118840
