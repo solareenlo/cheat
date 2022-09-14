@@ -12,7 +12,6 @@
 /* patch=1,EE,000F307C,word,7FAE0000 */
 /* patch=1,EE,000F3090,word,0805DF02 */
 
-
 //必須コード
 patch=1,EE,0011E5A4,word,0803C400
 patch=1,EE,000F1234,word,03E00008
