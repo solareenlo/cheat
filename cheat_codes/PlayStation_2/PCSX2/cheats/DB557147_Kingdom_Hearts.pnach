@@ -1,0 +1,23 @@
+// 所持金を最大値にするパッチコード
+patch=1,EE,0C977FF4,word,BD502EEB
+
+//お金最大
+patch=1,EE,003EA49C,word,0001869F
+
+// 101匹わんちゃんを全て助けるパッチコード
+patch=1,EE,0C6930DF,word,1DDF28EA
+patch=1,EE,0C6930E3,word,1DDF28EA
+patch=1,EE,0C6930E7,word,1DDF28EA
+patch=1,EE,CC6930EB,extended,1CDE2FCB
+
+// メモリ0
+patch=1,EE,CABE276C,extended,1CDE2FEB
+patch=1,EE,CABE2770,extended,1CDE2FEB
+
+// 経験値最大
+patch=1,EE,CA8EEFDC,extended,1C46D16A
+
+//ｼﾞｬﾝﾌﾟ力変更
+patch=1,EE,00532658,word,45000000
+patch=1,EE,00532820,word,45000000
+patch=1,EE,0053273C,word,45000000
