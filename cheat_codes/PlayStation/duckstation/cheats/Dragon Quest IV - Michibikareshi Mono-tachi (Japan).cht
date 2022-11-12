@@ -1,0 +1,85 @@
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[カジノのコイン999999]
+80010C84 423F
+30010C86 000F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*獲得経験値2倍]
+D0132400 1040
+8013246C 1840
+D0132400 1040
+8013246E 0003
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*獲得金2倍]
+D0132400 1040
+8013241C 1E00
+D0132400 1040
+8013241E 0C00
+80007800 CDF8
+80007802 8C82
+80007804 0008
+80007806 03E0
+80007808 1840
+8000780A 0003
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*メッセージの高速化]
+8002DAFE 1000
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[*レベルアップ時の能力値上昇で乱数を味方につける]
+800824EE 0200
+80082606 0200
+8008271E 0200
+80082836 0200
+8008294E 0200
+80082A66 0200
+80082B7E 0200
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[必ず宝箱]
+D01357AE 1440
+801357AE 1400
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[獲得金8倍]
+D0132400 1040
+8013241C 1E00
+D0132400 1040
+8013241E 0C00
+80007800 CDF8
+80007802 8C82
+80007804 0008
+80007806 03E0
+80007808 18C0
+8000780A 0003
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[所持金999999]
+80010C7C 423F
+30010C7E 000F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[必ず会心の一撃]
+D01312CA 1045
+801312CA 1000
+
