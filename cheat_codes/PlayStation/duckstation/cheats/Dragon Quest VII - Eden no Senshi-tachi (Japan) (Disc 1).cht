@@ -1,0 +1,262 @@
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Experient Poit 2 times No.1]
+D0130704 0024
+80130708 2800
+D0130704 0024
+8013070A 0800
+8000A000 72E4
+8000A002 8CA2
+8000A004 1840
+8000A006 0003
+8000A008 C1C4
+8000A00A 0804
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[ゴールド2倍]
+D013074C 9008
+80130750 1840
+D013074C 9008
+80130752 0003
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[職業経験値2倍]
+D010DA08 2BCB
+8010DA0C 0002
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[Message Speed Up]
+800251D8 0091
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[マップ画面での移動速度２倍]
+D011F6D0 3300
+8011F6D0 3340
+D011F708 1300
+8011F708 1340
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[視点回転速度２倍]
+80052D14 10C0
+80052D54 10C0
+80052D98 10C0
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[経験値が約1677万を超えるとゼロに戻る不具合解消]
+8004ADE4 0000
+8004ADE6 2626
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[弱い敵キャラを倒しても職業経験値が貰える]
+D010D9E4 0053
+8010D9E4 0001
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[戦闘不能状態でも経験値が入る]
+D010D738 007A
+8010D738 0001
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[職業活用経験値2倍]
+D010DBE4 18E3
+8010DBE8 0002
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[ルーラでどこでもいける]
+80010280 FFFF
+80010282 FFFF
+80010284 FFFF
+80010286 FFFF
+80010288 FFFF
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[ゴールド4倍]
+D0130704 0024
+80130750 1880
+D0130704 0024
+80130752 0003
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[ゴールド8倍]
+D0130748 0026
+80130750 18C0
+D0130748 0026
+80130752 0003
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[ゴールドMAX]
+800112D8 423F
+800112DA 000F
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[カジノのコインMAX]
+800112E0 967F
+800112E2 0098
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[弱い敵でも職業熟練度アップ]
+D010D9CC 443D
+8010D9DE 1000
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[経験値4倍 その1]
+D0130704 0024
+80130708 2800
+D0130704 0024
+8013070A 0800
+8000A000 72E4
+8000A002 8CA2
+8000A004 1880
+8000A006 0003
+8000A008 C1C4
+8000A00A 0804
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[経験値2倍 その2]
+D0130704 0024
+80130708 1E00
+D0130704 0024
+8013070A 0C00
+80007800 1840
+80007802 0003
+80007804 72E4
+80007806 8CA2
+80007808 0008
+8000780A 03E0
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[経験値4倍 その2]
+D0130704 0024
+80130708 1E00
+D0130704 0024
+8013070A 0C00
+80007800 1880
+80007802 0003
+80007804 72E4
+80007806 8CA2
+80007808 0008
+8000780A 03E0
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[職業経験値2倍 その2]
+D004AFE4 0053
+8004AFF4 2840
+8004AFE4 0053
+8004AFF6 0010
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[経験値が1670万超えるバグ解消]
+D0033190 0220
+8004ADD8 00FF
+D0033190 0220
+8004ADE4 FFFF
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[１度の戦闘で職業レベル１上昇]
+8004B018 2CB5
+8004B01C 0001
+8004B01E 2627
+8004B028 0001
+8004B02A 2623
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[職業熟練値、一回の戦闘で１００＜ＨＢＰ＞]
+D010DA0C 0001
+8010DA0C 0064
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[絨毯バグ]
+80010280 248A
+80010282 8921
+80010284 4A40
+80010286 4902
+80010288 2512
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[メダル王に渡したメダルの数]
+800112E4 0040
+
+#group=Ungrouped
+#type=Gameshark
+#activation=EndFrame
+[移民の街最終形態変更]
+D00DF428 0900
+80010274 93E0
+D00DF428 0900
+8001C1E4 065B
+D00DF428 0900
+8001C1E8 DCFC
+D00DF428 0801
+80010274 9560
+D00DF428 0801
+8001C1E4 0672
+D00DF428 0801
+8001C1E8 DB80
+D00DF428 0802
+80010274 94E0
+D00DF428 0802
+8001C1E4 0667
+D00DF428 0802
+8001C1E8 DFC0
+D00DF428 0804
+80010274 95E0
+D00DF428 0804
+8001C1E4 066B
+D00DF428 0804
+8001C1E8 E3DC
+D00DF428 0808
+80010274 9460
+D00DF428 0808
+8001C1E4 0663
+D00DF428 0808
+8001C1E8 E878
+
