@@ -1,16 +1,16 @@
 //獲得経験値2倍
-/* patch=1,EE,0035D8C8,word,0C03C800 */
-/* patch=1,EE,0035D8CC,word,00021040 */
-/* patch=1,EE,000F2000,word,00621021 */
-/* patch=1,EE,000F2004,word,03E00008 */
-/* patch=1,EE,000F2008,word,AE62005C */
-
-//獲得経験値16倍
 patch=1,EE,0035D8C8,word,0C03C800
-patch=1,EE,0035D8CC,word,00021100
+patch=1,EE,0035D8CC,word,00021040
 patch=1,EE,000F2000,word,00621021
 patch=1,EE,000F2004,word,03E00008
 patch=1,EE,000F2008,word,AE62005C
+
+//獲得経験値16倍
+/* patch=1,EE,0035D8C8,word,0C03C800 */
+/* patch=1,EE,0035D8CC,word,00021100 */
+/* patch=1,EE,000F2000,word,00621021 */
+/* patch=1,EE,000F2004,word,03E00008 */
+/* patch=1,EE,000F2008,word,AE62005C */
 
 //獲得金2倍
 patch=1,EE,0035D8D8,word,0C03C804
